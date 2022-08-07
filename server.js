@@ -36,5 +36,5 @@ app.get('/api/:name', (request, response) => {
 })
 
 app.listen(process.env.PORT || PORT, () => {
-    console.log(`This server is now running on port ${PORT}! Better go catch it.`)
+    console.log(`This server is now running on port ${process.env.PORT}! Better go catch it.`)
 })
